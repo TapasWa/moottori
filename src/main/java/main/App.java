@@ -47,7 +47,6 @@ public class App {
                 case 3:
                     for (Vehicle vehicle : vehicles) {
                         if (vehicle instanceof Car) {
-                            ((Car) vehicle).display();
                             ((Car) vehicle).drive();
                         }
                     }
@@ -55,7 +54,6 @@ public class App {
                 case 4:
                     for (Vehicle vehicle : vehicles) {
                         if (vehicle instanceof Plane) {
-                            ((Plane) vehicle).display();
                             ((Plane) vehicle).fly();
                         }
                     }
@@ -63,7 +61,6 @@ public class App {
                 case 5:
                     for (Vehicle vehicle : vehicles) {
                         if (vehicle instanceof Ship) {
-                            ((Ship) vehicle).display();
                             ((Ship) vehicle).sail();
                         }
                     }
